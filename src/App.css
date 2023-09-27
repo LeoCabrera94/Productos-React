@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* justifica el contenido entre ellas */
+  align-items: center;
+  /* alinea verticalmente */
+  border-bottom: 1px solid rgb(253, 202, 60);
+  /* forma una linea por debajo */
+  height: 70px;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+}
+.footer{
+    border-top: 1px solid rgb(253, 202, 60);
+    text-align: center;
+    height: 50px;
+}
+.productos{
+  margin-top:30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+}
+.producto{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+.producto .info{
+width: 400px;
+}
+.producto img{
+  width: 150px;
+  height: 150px;
+}
+.producto .fav-icon2{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
